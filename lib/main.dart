@@ -14,10 +14,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ITBook Store',
+      title: 'E Book Store',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        backgroundColor: Colors.black12,
       ),
       debugShowCheckedModeBanner: false,
       home: MultiBlocProvider(

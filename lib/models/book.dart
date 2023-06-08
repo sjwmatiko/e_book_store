@@ -1,3 +1,5 @@
+// ignore_for_file: non_constant_identifier_names
+
 class Book {
   final String title;
   final String subtitle;
@@ -20,7 +22,7 @@ class Book {
         title: json['title'] ?? "",
         subtitle: json['subtitle'] ?? "",
         ISBN13: json['isbn13'] ?? "",
-        price: (json['price'] as String).substring(1) ?? "",
+        price: (json['price'] as String).substring(1),
         imageUrl: json['image'] ?? "",
         url: json['url'] ?? "");
   }

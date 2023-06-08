@@ -1,4 +1,4 @@
-package com.aniketars.itbook_store
+package com.aniketars.e_book_store
 
 import io.flutter.embedding.android.FlutterActivity
 
